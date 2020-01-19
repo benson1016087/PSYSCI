@@ -34,11 +34,11 @@ def starting_information():
 	# Clocks
 	clock_trial = core.Clock() 
 	win = visual.Window(size=[800, 600], units="norm",fullscr=False, color=[0, 0, 0])
-	
-	## Prepare the instruction and stimulus' specification.
+
+	# Prepare the instruction
 	text = visual.TextStim(win=win, pos=[0, 0], color=[-1,-1,-1])
 	
-	## Display the instruction.
+	# Display the instruction
 	text.text = '''
 	 Your task is to as accurately and quickly as possible to Your task is to as accurately and quickly as possible to identify whether the squares'colors between encode and probe period isidentical.
 	'''
